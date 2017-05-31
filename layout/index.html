@@ -221,24 +221,12 @@
 							
 						</ul>
 					</li>
-					<li class="custom-color" style="background-color:#2d7e5c;">
-						<a href="category.html">World News</a>
+                    {{#each menu-ngang}}
+                    <li class="custom-color" style="background-color:#2d7e5c;">
+						<a href="{{url}}">{{ten}}</a>
 					</li>
-					<li class="custom-color" style="background-color:#c14d44;">
-						<a href="category.html">Technology</a>
-					</li>
-					<li class="custom-color" style="background-color:#609aaa;">
-						<a href="category.html">Movies</a>
-					</li>
-					<li class="custom-color" style="background-color:#c69069;">
-						<a href="category.html">Games</a>
-					</li>
-					<li class="custom-color" style="background-color:#80476b;">
-						<a href="category.html">Culture</a>
-					</li>
-					<li class="custom-color" style="background-color:#3d88c7;">
-						<a href="category.html">Economy</a>
-					</li>
+                    {{/each}}
+				
 					<!-- END .main-menu-ul -->
 				</ul>
 
