@@ -8,7 +8,9 @@
     "date": "2017-05-31T05:30:11.000Z",
     "publishDate": "",
     "draft": false,
-    "image": [],
+    "image": [
+        "images/photos/image-28.jpg"
+    ],
     "__content__": ""
 }
 ---
