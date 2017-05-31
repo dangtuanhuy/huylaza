@@ -214,6 +214,11 @@
 							<li>
 								<a href="shortcodes.html"><span>Shortcodes</span></a>
 								<ul>
+                                    {{#each menu-doc2}}
+                                    <li>
+										<a href="{{url}}">{{ten}}</a>
+									</li>
+                                    {{/each}}
 									<li>
 										<a href="shortcodes.html#image-caption">Image with caption text</a>
 									</li>
