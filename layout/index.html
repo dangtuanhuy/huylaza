@@ -419,6 +419,7 @@
 								<!-- BEGIN .left-article-block -->
 								<div class="left-article-block">
 									<div class="triple-article">
+                                        {{#each (first (lookupCategory AllCategory 'default.worldnews' 'files') 3) }}
 										<div class="triple-article-single">
 											<div class="article-photo">
 												<a href="post.html"><img src="images/photos/image-10.jpg" width="152" height="120" class="setborder" alt="" title="" /></a>
@@ -430,7 +431,7 @@
 												</h4>
 											</div>
 										</div>
-
+{{/each}}
 										<div class="triple-article-single">
 											<div class="article-photo">
 												<a href="post.html"><img src="images/photos/image-11.jpg" width="152" height="120" class="setborder" alt="" title="" /></a>
