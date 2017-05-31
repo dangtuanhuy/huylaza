@@ -5,9 +5,12 @@
     "layout": "trang-chi-tiet.html",
     "category": "default",
     "tag": [],
-    "date": "2017-05-31T05:31:18.000Z",
+    "date": "2017-05-02 12:31",
     "publishDate": "",
     "draft": false,
+    "image": [
+        ""
+    ],
     "__content__": ""
 }
 ---
