@@ -11,6 +11,7 @@
     "image": [
         "images/photos/image-27.jpg"
     ],
-    "__content__": ""
+    "__content__": "Bien dao cua viet nam gom truong sa va hoang sa"
 }
 ---
+Bien dao cua viet nam gom truong sa va hoang sa
