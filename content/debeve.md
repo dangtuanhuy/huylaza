@@ -1,12 +1,17 @@
 ---json
 {
+    "title": "Dele la",
     "slug": "debeve",
-    "title": "debeve",
+    "layout": "trang-chi-tiet.html",
     "category": "default.debe",
     "tag": [],
-    "layout": "trang-chi-tiet.html",
-    "date": "2017-05-31T09:18:01.200Z",
+    "date": "2017-05-31T09:18:01.000Z",
     "publishDate": "",
-    "draft": false
+    "draft": false,
+    "image": [
+        ""
+    ],
+    "island": "",
+    "__content__": ""
 }
 ---
