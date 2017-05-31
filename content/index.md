@@ -97,6 +97,20 @@
             "url": ""
         }
     ],
+    "menu-blogview": [
+        {
+            "ten": "Blog thu hai",
+            "url": ""
+        },
+        {
+            "ten": "xem phan loai",
+            "url": ""
+        },
+        {
+            "ten": "trang kho rong",
+            "url": ""
+        }
+    ],
     "__content__": ""
 }
 ---
