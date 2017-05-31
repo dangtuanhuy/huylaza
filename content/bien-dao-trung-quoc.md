@@ -5,7 +5,7 @@
     "layout": "trang-chi-tiet.html",
     "category": "default.worldnews",
     "tag": [],
-    "date": "2017-05-01 12:29",
+    "date": "2017-05-01T05:29:00.000Z",
     "publishDate": "",
     "draft": false,
     "image": [
