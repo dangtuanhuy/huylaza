@@ -11,7 +11,7 @@
     "image": [
         "images/photos/image-27.jpg"
     ],
-    "island": "tuyet tuyet tinh us forensibus, facilis denique delicatissimi et sit, te qui integre petentium. Ei mel timeam \t\t\t\t\t\t\t\t\t\t\t\tconclusionemque vituperatoribus. Ei vix solet vidisse laboramus, dolore primis praesent sit ut. Diam habeo an \t\t\t\t\t\t\t\t\t\t\t\tnec. Natum disputationi ut eum. Nisl erant percipitur ei ius. Sed facete omittantur reprehendunt eu, dicam vivendo \t\t\t\t\t\t\t\t\t\t\t\tut eum. Per ex dicat zril feugiat, natum nobis an vel, quot homero singulis est ut",
+    "island": "Chiều 31/5, Công an tỉnh Bình Dương cho biết, nghi can Nguyễn Văn Để (76 tuổi, ngụ quận Gò Vấp, TPHCM) đã ra đầu thú tại Công an TPHCM, hiện Công an Bình Dương đang di lý nghi can này về để tiếp tục điều tra.",
     "__content__": "Bien dao cua viet nam gom truong sa va hoang sa"
 }
 ---
