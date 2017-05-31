@@ -3,7 +3,7 @@
     "title": "Bien dao Viet Nam",
     "slug": "bien-dao-viet-nam",
     "layout": "trang-chi-tiet.html",
-    "category": "default",
+    "category": "default.worldnews",
     "tag": [],
     "date": "2017-05-31T05:28:05.000Z",
     "publishDate": "",
