@@ -1,12 +1,14 @@
 ---json
 {
-    "slug": "hop-tac-voi-hoa-ky",
     "title": "Hop tac voi Hoa Ky",
+    "slug": "hop-tac-voi-hoa-ky",
+    "layout": "trang-chi-tiet.html",
     "category": "default",
     "tag": [],
-    "layout": "trang-chi-tiet.html",
-    "date": "2017-05-31T05:30:11.937Z",
+    "date": "2017-05-31T05:30:11.000Z",
     "publishDate": "",
-    "draft": false
+    "draft": false,
+    "image": "images/photos/image-28.jpg",
+    "__content__": ""
 }
 ---
