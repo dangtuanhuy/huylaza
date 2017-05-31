@@ -405,16 +405,17 @@
 								</div>
 
 								<!-- BEGIN .left-article-block -->
+ {{#each (first (lookupCategory AllCategory 'default.movies' 'files') 1) }}
 								<div class="left-article-block single-line">
 									<div class="article-content" style="border-left:5px solid #c14d44;padding:3px 0px 3px 10px;">
 										<h3>
-											<a href="post.html" class="font-replace">Minhtuyet</a>
-											<a href="index-no-slider.html#" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>20</a>
+											<a href="{{slug}}" class="font-replace">{{title}</a>
+											<a href="{{slug}}" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>20</a>
 										</h3>
 									</div>
 									<!-- END .left-article-block -->
 								</div>
-
+{{}}
 								<!-- BEGIN .left-article-block -->
 								<div class="left-article-block">
 									<div class="triple-article">
