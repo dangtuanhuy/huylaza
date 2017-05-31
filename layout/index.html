@@ -179,15 +179,12 @@
 					<li>
 						<a href="index.html"><span>Homepage</span></a>
 						<ul>
-							<li>
-								<a href="index-1270.html">Homepage 1270px</a>
-							</li>
-							<li>
-								<a href="index-no-slider.html">Homepage Without Slider</a>
-							</li>
-							<li>
-								<a href="index-slider-full.html">Homepage Full Slider</a>
-							</li>
+                            {{#each menu-doc1}}
+                            <li>
+								<a href="{{url}}">{{ten}}</a>
+                            </li>
+{{/each}}
+						
 						</ul>
 					</li>
 					<li class="custom-color" style="background-color:#675a8c;">
