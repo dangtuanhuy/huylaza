@@ -190,6 +190,10 @@
 					<li class="custom-color" style="background-color:#675a8c;">
 						<a href="blog.html"><span>Blog View</span></a>
 						<ul>
+                            {{#each menu-doc1}}
+    <div>{{ten}}</div>
+    <div>{{url}}</div>
+{{/each}}
 							<li>
 								<a href="blog-second.html">Second Blog View</a>
 							</li>
@@ -199,24 +203,12 @@
 							<li>
 								<a href="post.html"><span>Post With Big Photo</span></a>
 								<ul>
-									<li>
-										<a href="post-no-photo.html">Post With No Photo</a>
+                                    {{#each menu-doc1}}
+                                    <li>
+										<a href="{{url}}">{{ten}}</a>
 									</li>
-									<li>
-										<a href="post-without-middle.html">Post Without middle</a>
-									</li>
-									<li>
-										<a href="post-no-comments.html">Post With No Comments</a>
-									</li>
-									<li>
-										<a href="post-comments.html">Post With External Comments</a>
-									</li>
-									<li>
-										<a href="post-internal.html">Post With Internal Comments</a>
-									</li>
-									<li>
-										<a href="post-left-sidebar.html">Post With Left Sidebar</a>
-									</li>
+                                    {{/each}}
+									
 								</ul>
 							</li>
 							<li>
