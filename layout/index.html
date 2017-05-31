@@ -558,14 +558,16 @@
 									<div class="title-top">
 										<a href="category.html">view all articles in this category</a>
 									</div>
+                                    
 									<div class="category-block">
+                                        {{each AllCategory.files}}
 										<div class="category-left-block">
 											
 											<div class="article-block">
 												<div class="article-photo">
-													<a href="post.html"><img src="images/photos/image-26.jpg" width="230" height="100" class="setborder" alt="" title="" /></a>
+													<a href="{{slug}}"><img src="images/photos/image-26.jpg" width="230" height="100" class="setborder" alt="" title="" /></a>
 												</div>
-												<h4><a href="post.html" class="font-replace">Vel facete deleniti suavitate no vum viris has</a><a href="index-no-slider.html#" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>10</a></h4>
+												<h4><a href="{{slug}}" class="font-replace">Vel facete deleniti suavitate no vum viris has</a><a href="index-no-slider.html#" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>10</a></h4>
 											</div>
 											
 											<div class="article-block">
