@@ -363,21 +363,21 @@
 
 								<!-- BEGIN .left-article-block -->
 								<div class="left-article-block article-background">
+                                    {{#each (first (lookupCategory AllCategory 'default.technology' 'files') 1) }}
 									<div class="article-photo">
-										<a href="post.html"><span class="hover-icon icon-text">&#128269;</span><img src="images/photos/image-1.jpg" class="setborder" width="506"
+										<a href="{{slug}}"><span class="hover-icon icon-text">&#128269;</span><img src="{{image}}" class="setborder" width="506"
 												height="285" style="border-bottom:8px solid #675a8c;" alt="" title="" /></a>
 									</div>
 									<div class="article-content">
 										<h2>
                                           
-											<a href="index-no-slider.html#" class="font-replace">Minh tuyet</a>
-											<a href="index-no-slider.html#" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>20</a>
+											<a href="{{slug}}" class="font-replace">{{title}}</a>
+											<a href="{{slug}}" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>20</a>
                                          
 										</h2>
-										<p>Nam elitr tincidunt ne, mea commodo signiferumque ex, omnis paulo interesset cu vix. Choro gubergren cum ad, bonorum
-											detracto adolescens vim te, et ferri elitr tollit nam. An sea novum salutatus, sea ne nullam labitur, ius timeam
-											aperiri molestie ei. Ne dicat altera forensibus mel. Ius no brute omittantur.</p>
+										<p>{{island}}</p>
 									</div>
+                                    {{/each}}
 									<div class="triple-article">
 										<div class="triple-article-single">
 											<div class="article-photo">
