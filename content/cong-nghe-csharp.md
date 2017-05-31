@@ -11,6 +11,7 @@
     "image": [
         "images/photos/image-5.jpg"
     ],
-    "__content__": ""
+    "__content__": "COng nghe thuong duoc su dung"
 }
 ---
+COng nghe thuong duoc su dung
