@@ -1,12 +1,16 @@
 ---json
 {
-    "slug": "cong-nghe-csharp",
     "title": "Cong nghe Csharp",
+    "slug": "cong-nghe-csharp",
+    "layout": "trang-chi-tiet.html",
     "category": "default.technology",
     "tag": [],
-    "layout": "trang-chi-tiet.html",
-    "date": "2017-05-31T08:08:43.034Z",
+    "date": "2017-05-31T08:08:43.000Z",
     "publishDate": "",
-    "draft": false
+    "draft": false,
+    "image": [
+        "images/photos/image-5.jpg"
+    ],
+    "__content__": ""
 }
 ---
