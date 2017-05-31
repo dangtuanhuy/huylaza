@@ -5,12 +5,13 @@
     "layout": "trang-chi-tiet.html",
     "category": "default.worldnews",
     "tag": [],
-    "date": "2017-05-01 12:30",
+    "date": "2017-05-01T05:30:00.000Z",
     "publishDate": "",
     "draft": false,
     "image": [
         "images/photos/image-28.jpg"
     ],
-    "__content__": ""
+    "__content__": "Hoa ky la nuoc co nen kinh te phat trien nhat the gioi."
 }
 ---
+Hoa ky la nuoc co nen kinh te phat trien nhat the gioi.
