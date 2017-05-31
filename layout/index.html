@@ -190,10 +190,11 @@
 					<li class="custom-color" style="background-color:#675a8c;">
 						<a href="blog.html"><span>Blog View</span></a>
 						<ul>
-                            {{#each menu-doc1}}
-    <div>{{ten}}</div>
-    <div>{{url}}</div>
-{{/each}}
+                       {{#each menu-blogview}}
+                            <li>
+								<a href="{{url}}">{{ten}}</a>
+							</li>
+                        {{/each}}
 							<li>
 								<a href="blog-second.html">Second Blog View</a>
 							</li>
