@@ -1,12 +1,16 @@
 ---json
 {
-    "slug": "cong-nghe-java",
     "title": "Cong nghe Java",
+    "slug": "cong-nghe-java",
+    "layout": "trang-chi-tiet.html",
     "category": "default.technology",
     "tag": [],
-    "layout": "trang-chi-tiet.html",
-    "date": "2017-05-31T08:09:14.147Z",
+    "date": "2017-05-31T08:09:14.000Z",
     "publishDate": "",
-    "draft": false
+    "draft": false,
+    "image": [
+        "images/photos/image-3.jpg"
+    ],
+    "__content__": ""
 }
 ---
