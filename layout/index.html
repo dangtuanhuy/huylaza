@@ -767,17 +767,17 @@
 								</div>
 								<div class="category-block">
 									<div class="category-left-block">
-                                        {{#each (first (lookupCategory AllCategory 'default.economy' 'files') 3) }}
+										{{#each (first (lookupCategory AllCategory 'default.economy' 'files') 3) }}
 										<div class="article-block">
 											<div class="article-photo">
-												<a href="{{slug}}"><img src="images/photos/image-30.jpg" width="230" height="100" class="setborder" alt="" title="" /></a>
+												<a href="{{slug}}"><img src="{{image}}" width="230" height="100" class="setborder" alt="" title="" /></a>
 											</div>
 											<h4>
 												<a href="{{slug}}" class="font-replace">{{title}}</a>
 												<a href="index-no-slider.html#" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>10</a>
 											</h4>
 										</div>
-                                        {{/each}}
+										{{/each}}
 										<!--<div class="article-block">
 											<div class="article-photo">
 												<a href="post.html"><img src="images/photos/image-31.jpg" width="230" height="100" class="setborder" alt="" title="" /></a>
@@ -891,7 +891,8 @@
 										<span class="timestamp">May 1, 2013</span>
 										<strong class="font-replace">Dylan Windsor</strong>
 										<p>Ex scripta graecis mea, nulla legimus expetenda cu nec ei integre aliquam. Id his laudem omnesque sing mel et utroque
-											assueverit.</p>
+											assueverit.
+										</p>
 										<a href="post.html" class="text-link"><span class="icon-text">&#59154;</span>view article</a>
 									</div>
 								</div>
