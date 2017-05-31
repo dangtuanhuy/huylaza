@@ -1,12 +1,16 @@
 ---json
 {
-    "slug": "su-dung-ejb",
     "title": "Su dung EJB",
-    "category": "",
-    "tag": [],
+    "slug": "su-dung-ejb",
     "layout": "trang-chi-tiet.html",
-    "date": "2017-05-31T08:09:46.482Z",
+    "category": "default.technology",
+    "tag": [],
+    "date": "2017-05-31T08:09:46.000Z",
     "publishDate": "",
-    "draft": false
+    "draft": false,
+    "image": [
+        ""
+    ],
+    "__content__": ""
 }
 ---
