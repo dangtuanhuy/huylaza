@@ -564,14 +564,14 @@
 								<!-- BEGIN .left-article-block -->
 								<div class="left-article-block article-background">
 									<div class="article-content">
+                                        {{#each (first (lookupCategory AllCategory 'default' 'files') 1) }}
 										<h2 style="border-left:5px solid #3d88c7;padding:3px 0px 3px 15px;margin-left:-20px;margin-top:-3px;">
-											<a href="index-no-slider.html#" class="font-replace">Ius dolor vulputate probo malorum</a>
-											<a href="index-no-slider.html#" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>40</a>
+											<a href="{{slug}}" class="font-replace">{{title}}</a>
+											<a href="{{slug}}" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>40</a>
 										</h2>
-										<p>Nam elitr tincidunt ne, mea commodo signiferumque ex, omnis paulo interesset cu vix. Choro gubergren cum ad, bonorum
-											detracto adolescens vim te, et ferri elitr tollit nam. An sea novum salutatus, sea ne nullam labitur, ius timeam
-											aperiri molestie ei. Ne dicat altera forensibus mel. Ius no brute omittantur.</p>
-									</div>
+										<p>{{island}}</p>
+									{{/each}}
+                                    </div>
 									<div class="triple-article">
 										<div class="triple-article-single">
 											<div class="article-photo">
