@@ -111,6 +111,32 @@
             "url": ""
         }
     ],
+    "menu-ngang": [
+        {
+            "ten": "Tin tuc",
+            "url": ""
+        },
+        {
+            "ten": "cong nghe",
+            "url": ""
+        },
+        {
+            "ten": "phim",
+            "url": ""
+        },
+        {
+            "ten": "game",
+            "url": ""
+        },
+        {
+            "ten": "van hoa",
+            "url": ""
+        },
+        {
+            "ten": "kinh te",
+            "url": ""
+        }
+    ],
     "__content__": ""
 }
 ---
