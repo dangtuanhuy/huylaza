@@ -369,8 +369,9 @@
 									</div>
 									<div class="article-content">
 										<h2>
-                                            {{each AllCategory.files}}
-											<a href="slug" class="font-replace">{{title}}</a>
+                                          
+{{#each (first (lookupCategory AllCategory 'default.news' 'files') 1) }}
+											<a href="{{slug}}" class="font-replace">{{title}}</a>
 											<a href="index-no-slider.html#" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>20</a>
                                             {{/each}}
 										</h2>
