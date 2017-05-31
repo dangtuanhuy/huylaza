@@ -11,6 +11,7 @@
     "image": [
         "images/photos/image-3.jpg"
     ],
-    "__content__": ""
+    "__content__": "Cong nghe luong cao"
 }
 ---
+Cong nghe luong cao
