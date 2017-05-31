@@ -7,7 +7,9 @@
     "date": "2017-05-31T05:29:39.000Z",
     "publishDate": "",
     "draft": false,
-    "image": "images/photos/image-27.jpg",
+    "image": [
+        "images/photos/image-27.jpg"
+    ],
     "__content__": ""
 }
 ---
