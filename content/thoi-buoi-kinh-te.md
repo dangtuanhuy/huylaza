@@ -3,9 +3,9 @@
     "title": "Thoi buoi kinh te",
     "slug": "thoi-buoi-kinh-te",
     "layout": "trang-chi-tiet.html",
-    "category": "default",
+    "category": "default.worldnews",
     "tag": [],
-    "date": "2017-05-02 12:31",
+    "date": "2017-05-02T05:31:00.000Z",
     "publishDate": "",
     "draft": false,
     "image": [
