@@ -1,12 +1,14 @@
 ---json
 {
-    "slug": "bien-dao-viet-nam",
     "title": "Bien dao Viet Nam",
+    "slug": "bien-dao-viet-nam",
+    "layout": "trang-chi-tiet.html",
     "category": "default",
     "tag": [],
-    "layout": "trang-chi-tiet.html",
-    "date": "2017-05-31T05:28:05.446Z",
+    "date": "2017-05-31T05:28:05.000Z",
     "publishDate": "",
-    "draft": false
+    "draft": false,
+    "image": "images/photos/image-26.jpg",
+    "__content__": ""
 }
 ---
