@@ -9,7 +9,7 @@
     "publishDate": "",
     "draft": false,
     "image": [
-        ""
+        "images/photos/image-4.jpg"
     ],
     "__content__": ""
 }
