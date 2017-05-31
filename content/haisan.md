@@ -1,12 +1,16 @@
 ---json
 {
-    "slug": "haisan",
     "title": "Haisan",
+    "slug": "haisan",
+    "layout": "trang-chi-tiet.html",
     "category": "default.economy.economy",
     "tag": [],
-    "layout": "trang-chi-tiet.html",
-    "date": "2017-05-31T07:47:56.778Z",
+    "date": "2017-05-31T07:47:56.000Z",
     "publishDate": "",
-    "draft": false
+    "draft": false,
+    "image": [
+        "images/photos/image-3.jpg"
+    ],
+    "__content__": ""
 }
 ---
