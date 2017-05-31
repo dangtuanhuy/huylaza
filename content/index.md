@@ -21,6 +21,32 @@
             "url": ""
         }
     ],
+    "menu-doc2": [
+        {
+            "ten": "Dang khong co hinh",
+            "url": ""
+        },
+        {
+            "ten": "dang trung binh",
+            "url": ""
+        },
+        {
+            "ten": "dang khong co binh luan",
+            "url": ""
+        },
+        {
+            "ten": "dang binh luan ngoai",
+            "url": ""
+        },
+        {
+            "ten": "dang binh luan noi bo",
+            "url": ""
+        },
+        {
+            "ten": "Slidebar",
+            "url": ""
+        }
+    ],
     "__content__": ""
 }
 ---
