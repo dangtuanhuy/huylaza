@@ -440,36 +440,16 @@
 									
 									<!-- BEGIN .middle-panel -->
 									<div class="middle-panel" style="border-top:8px solid #5fa1b4;">
-										<h3 style="color:#5fa1b4;" class="font-replace"><a href="category.html">Movies</a></h3>
+										<h3 style="color:#5fa1b4;" class="font-replace"><a href="category.html">Phim Hay</a></h3>
 										<div class="middle-content">
-											
+										{{#each (first (lookupCategory AllCategory 'default.news' 'files') 4) }}
 											<div class="middle-article">
 												<div class="article-photo">
-													<a href="post.html"><img src="images/photos/image-2.jpg" width="134" height="100" class="setborder" alt="" title="" /></a>
+													<a href="{{slug}}"><img src="{{image-1}}" width="134" height="100" class="setborder" alt="" title="" /></a>
 												</div>
-												<h4><a href="post.html" class="font-replace">Choro gubergren cumad bonorum detracto</a><a href="index-no-slider.html#" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>4</a></h4>
+												<h4><a href="{{slug}}" class="font-replace">Choro gubergren cumad bonorum detracto</a><a href="index-no-slider.html#" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>4</a></h4>
 											</div>
-											
-											<div class="middle-article">
-												<div class="article-photo">
-													<a href="post.html"><img src="images/photos/image-3.jpg" width="134" height="100" class="setborder" alt="" title="" /></a>
-												</div>
-												<h4><a href="post.html" class="font-replace">No diam similique definitiones</a><a href="index-no-slider.html#" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>8</a></h4>
-											</div>
-											
-											<div class="middle-article">
-												<div class="article-photo">
-													<a href="post.html"><img src="images/photos/image-4.jpg" width="134" height="100" class="setborder" alt="" title="" /></a>
-												</div>
-												<h4><a href="post.html" class="font-replace">Choro gubergren cumad bonorum detracto</a><a href="index-no-slider.html#" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>4</a></h4>
-											</div>
-											
-											<div class="middle-article">
-												<div class="article-photo">
-													<a href="post.html"><img src="images/photos/image-5.jpg" width="134" height="100" class="setborder" alt="" title="" /></a>
-												</div>
-												<h4><a href="post.html" class="font-replace">No diam similique definitiones</a><a href="index-no-slider.html#" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>8</a></h4>
-											</div>
+											{{/each}}																					
 											
 										</div>
 									<!-- END .middle-panel -->
