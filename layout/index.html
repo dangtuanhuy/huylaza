@@ -431,50 +431,28 @@
 											</div>
 
 										</div>
-                                        {{/each}}
-										<!--<div class="triple-article-single">
-											<div class="article-photo">
-												<a href="post.html"><img src="images/photos/image-11.jpg" width="152" height="120" class="setborder" alt="" title="" /></a>
-											</div>
-											<div class="article-content">
-												<h4>
-													<a href="post.html" class="font-replace">Debet vocent diando tacimates constito</a>
-													<a href="index-no-slider.html#" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>54</a>
-												</h4>
-											</div>
-										</div>
-
-										<div class="triple-article-single">
-											<div class="article-photo">
-												<a href="post.html"><img src="images/photos/image-12.jpg" width="152" height="120" class="setborder" alt="" title="" /></a>
-											</div>
-											<div class="article-content">
-												<h4>
-													<a href="post.html" class="font-replace">Nam elitr tincidunt mea commodo siferu</a>
-													<a href="index-no-slider.html#" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>9</a>
-												</h4>
-											</div>
-										</div>-->
+                                        {{/each}}									
 									</div>
 									<!-- END .left-article-block -->
 								</div>
 
 								<!-- BEGIN .left-article-block -->
 								<div class="left-article-block">
-									<div class="double-article">
+                                   <div class="double-article"> {{#each (first (lookupCategory AllCategory 'default.economy.economy' 'files') 2) }}
+									
 										<div class="double-article-single">
 											<div class="article-photo">
-												<a href="post.html"><img src="images/photos/image-14.jpg" width="243" height="170" class="setborder" alt="" title="" /></a>
+												<a href="{{slug}}"><img src="{{image}}" width="243" height="170" class="setborder" alt="" title="" /></a>
 											</div>
 											<div class="article-content">
 												<h3>
-													<a href="post.html" class="font-replace">At elit forensibus diam feugait dissentiet anim antiopam</a>
-													<a href="index-no-slider.html#" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>5</a>
+													<a href="{{slug}}" class="font-replace">{{title}}</a>
+													<a href="{{slug}}" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>5</a>
 												</h3>
 											</div>
 										</div>
-
-										<div class="double-article-single">
+{{/each}}
+										<!--<div class="double-article-single">
 											<div class="article-photo">
 												<a href="post.html"><img src="images/photos/image-15.jpg" width="243" height="170" class="setborder" alt="" title="" /></a>
 											</div>
@@ -484,7 +462,7 @@
 													<a href="index-no-slider.html#" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>7</a>
 												</h3>
 											</div>
-										</div>
+										</div>-->
 									</div>
 									<!-- END .left-article-block -->
 								</div>
