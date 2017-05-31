@@ -418,9 +418,8 @@
 								{{/each}}
 								<!-- BEGIN .left-article-block -->
 								<div class="left-article-block">
-										<div class="triple-article">
-										<div class="triple-article-single">
-								
+										<div class="triple-article">{{#each (first (lookupCategory AllCategory 'default' 'files') 3) }}
+										<div class="triple-article-single">			
 											<div class="article-photo">
 												<a href="{{slug}}"><img src="{{image}}" width="152" height="120" class="setborder" alt="" title="" /></a>
 											</div>
@@ -432,7 +431,8 @@
 											</div>
 
 										</div>
-										<div class="triple-article-single">
+                                        {{/each}}
+										<!--<div class="triple-article-single">
 											<div class="article-photo">
 												<a href="post.html"><img src="images/photos/image-11.jpg" width="152" height="120" class="setborder" alt="" title="" /></a>
 											</div>
@@ -454,7 +454,7 @@
 													<a href="index-no-slider.html#" class="article-comment-icon"><span class="comment-icon">&nbsp;</span>9</a>
 												</h4>
 											</div>
-										</div>
+										</div>-->
 									</div>
 									<!-- END .left-article-block -->
 								</div>
