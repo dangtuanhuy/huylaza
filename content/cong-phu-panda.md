@@ -11,6 +11,7 @@
     "image": [
         "images/photos/image-2.jpg"
     ],
-    "__content__": ""
+    "__content__": "Phim hay ma con nit rat thich"
 }
 ---
+Phim hay ma con nit rat thich
